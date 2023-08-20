@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="input-btn">
+                <input type="text" id="inpBox" class="inpBox">
+                <button class="btn" onclick="searchMovie()">Search Movie</button>
+            </div>
+
+            <div class="movieContent" id="movieContent">
+                <div class="movieDetails">
+                    <h1 id="title">Movie Title</h1>
+
+                    <p>Actors :
+                        <span id="actors"></span>
+                    </p>
+                    <p>Director :
+                        <span id="director"></span>
+                    </p>
+                    <p>Released :
+                        <span id="released"></span>
+                    </p>
+                    <p>Language :
+                        <span id="language"></span>
+                    </p>
+                    <p>Genre :
+                        <span id="genre"></span>
+                    </p>
+                    <p>Writer :
+                        <span id="writer"></span>
+                    </p>
+                    <p>Awards :
+                        <span id="awards"></span>
+                    </p>
+                    <p>Box Office :
+                        <span id="boxOffice"></span>
+                    </p>
+                    <p>Run time:
+                        <span id="runTime"></span>
+                    </p>
+                </div>
+                <div class="img-container">
+                    <img src="" alt="" srcset="" class="poster" id="poster">
+                    <p class="movieRate">
+                        IMDB: <span id="imdb"></span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
